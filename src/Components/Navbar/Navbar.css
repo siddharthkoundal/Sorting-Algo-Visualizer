@@ -1,0 +1,85 @@
+/* src/Components/Navbar/Navbar.css */
+.navbar {
+  width: 100%;
+  background-color: #1a1a1a;
+  overflow: hidden; /* Ensure no overflow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 20px;
+  margin: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.navbar-title {
+  color: #e0e0e0;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+}
+
+.navbar-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-button {
+  background: linear-gradient(145deg, #ff5e6c, #f67280);
+  color: #e0e0e0;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-button:hover {
+  background: linear-gradient(
+    145deg,
+    #e14959,
+    #e05970
+  ); /* Darker gradient on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+}
+
+.navbar select {
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  background-color: #262626; /* Dark select background */
+  color: #e0e0e0; /* Light select text color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.navbar select:hover,
+.navbar select:focus {
+  background-color: #2a2a2b; /* Slightly lighter background on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 600px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navbar-title {
+    margin-bottom: 0;
+  }
+
+  .navbar-controls {
+    flex-wrap: nowrap;
+    justify-content: flex-end; /* Align controls to the right */
+  }
+}

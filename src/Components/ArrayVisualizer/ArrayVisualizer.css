@@ -1,0 +1,31 @@
+/* src/components/ArrayVisualizer.css */
+.array-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 80%;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.array-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+}
+
+.array-bar {
+  width: 5px;
+  margin: 0 1px;
+  background-color: turquoise;
+}
+
+.highlight {
+  background-color: orange;
+}

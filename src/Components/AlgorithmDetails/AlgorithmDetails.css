@@ -1,0 +1,21 @@
+/* src/components/AlgorithmDetails/AlgorithmDetails.css */
+.algorithm-details {
+  text-align: center;
+  color: #e0e0e0;
+}
+
+.algorithm-details h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #ff2e63;
+}
+
+.algorithm-details p {
+  margin: 0.4rem 0;
+  font-size: 0.8rem;
+}
+
+.algorithm-details p::before {
+  content: "• ";
+  color: #ff2e63;
+}
