@@ -18,7 +18,7 @@ Sorting Visualizer is a web application that allows users to visualize various s
 
 ## Demo
 
-You can view the live project [here](https://your-live-project-link.com).
+You can view the live project [sorting-algo-visualizer](https://sorting-algo-visualizerr.netlify.app/).
 
 ## Installation
 
