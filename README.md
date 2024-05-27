@@ -1,71 +1,80 @@
-# Getting Started with Create React App
+# Sorting Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sorting Visualizer is a web application that allows users to visualize various sorting algorithms in action. The application provides a dynamic and interactive way to understand how different sorting algorithms work by animating the sorting process in real-time.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Visualize multiple sorting algorithms:
+  - Bubble Sort
+  - Selection Sort
+  - Insertion Sort
+  - Merge Sort
+  - Quick Sort
+  - Heap Sort
+- Adjust the speed of the visualization.
+- Reset the array to sort a new set of numbers.
+- Highlight the elements being compared and the sorted elements.
+- Display the time and space complexity of the selected algorithm.
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can view the live project [here](https://your-live-project-link.com).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run this project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/your-username/sorting-visualizer.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   cd sorting-visualizer
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the dependencies:
 
-### `npm run eject`
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Start the development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Open your browser and go to `http://localhost:3000` to view the application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+- **Select Algorithm**: Choose a sorting algorithm from the dropdown menu.
+- **Adjust Speed**: Use the speed control slider to adjust the speed of the visualization.
+- **Sort Array**: Click the "Sort Array" button to start the sorting visualization.
+- **Reset Array**: Click the "Reset Array" button to generate a new random array.
+- **Pause/Resume**: Use the pause and resume buttons to control the sorting process (currently commented out in the code).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## File Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `src/algorithms`: Contains the implementation of the sorting algorithms.
+- `src/components`: Contains the React components used in the application.
+  - `AlgorithmDetails`: Displays the details of the selected algorithm.
+  - `AlgorithmSelector`: Dropdown menu to select a sorting algorithm.
+  - `ArrayVisualizer`: Visual representation of the array being sorted.
+  - `Navbar`: Navigation bar with controls.
+  - `SpeedControl`: Slider to control the speed of the visualization.
+- `src/App.js`: Main application component.
+- `src/App.css`: Main stylesheet for the application.
+- `src/index.js`: Entry point of the application.
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are welcome! If you have any suggestions or improvements, please open an issue or create a pull request.
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Sorting-Algo-Visualizer
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
