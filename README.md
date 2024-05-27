@@ -13,8 +13,8 @@ Sorting Visualizer is a web application that allows users to visualize various s
   - Heap Sort
 - Adjust the speed of the visualization.
 - Reset the array to sort a new set of numbers.
-- Highlight the elements being compared and the sorted elements.
-- Display the time and space complexity of the selected algorithm.
+- Highlights the elements being compared and the sorted elements.
+- Displays the time and space complexity of the selected algorithm.
 
 ## Demo
 
